@@ -10,20 +10,16 @@ export default class Level extends Phaser.Scene {
 
 	create() {
 		const boardX=200;
-		const boardY=200;
+		const boardY=100;
 		//replace w/ json
 		const numX=10;
 		const numY=10;
 		const tileSize=64;
 		const width=numX*tileSize;
 		const height=numY*tileSize;
-		this.add.text(boardX-32,30,"Fill in the numbers matching the hundred's chart", { 
-            fontFamily: 'Kenney_Pixel, Tahoma, serif', 
-            fontSize: '64px', 
-            color: '#000' });
-		const text=this.add.text(boardX-32,80,"Get to the", { 
+		const text=this.add.text(boardX-32,boardY-100,"Get to the", { 
 				fontFamily: 'Kenney_Pixel, Tahoma, serif', 
-				fontSize: '64px', 
+				fontSize: '48px', 
 				color: '#000' });
 
 		this.add.image(text.x+text.width+50, text.y+32, "sokoban_spritesheet", "ground_02.png");

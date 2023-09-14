@@ -18,32 +18,47 @@
       }
       body {
         margin: 0;
-        background-color: #9ECBE5;
+        background-color: #F3F6CB;
+        text-align:center;
+        font-family: 'Kenney_Pixel';
+        color: #2A2E3C;
       }
       a {
+        font-family: 'Kenney_Pixel';
+        text-decoration: none;
+        color: #1E5271;
+      }
+      #sources a {
         font-family: 'Kenney_Blocks';
         text-decoration: none;
       }
-      a:visited{
-        color:black;
-      }
-      #sources{
-        text-align:center;
-        font-family: 'Kenney_Pixel';
-      }
-      #about{
+      h1{
         text-align:center;
         font-family: 'Kenney_Blocks';
+      }
+      #about{
+        font-size:28px;
+      }
+      #goal{
+        font-size:28px;
       }
     </style>
     <script type="module" src="/src/index.ts"></script>
   </head>
   <body>
-    <div id="about">
-      <h1>Hundreds Graph Game</h1>
-      <p></p>
-    </div>
+    <h1>Hundreds Graph Game</h1>
+    <div id="goal">Fill in the numbers matching the <a href="https://www.khanacademy.org/math/cc-third-grade-math/arithmetic-patterns-and-problem-solving/imp-patterns-in-arithmetic/v/patterns-in-hundreds-chart">hundred's chart</a></div>
     <div id="game"></div>
-    <div id="sources">Assets from <a href="https://kenney.nl/">Kenney</a></div>
+    <div id="about">
+      <p>
+        Move and enter the correct number for the hundreds chart.<br/>
+        Move with &#8592; &#8593; &#8594; &#8595; or use the touch pad.<br/>
+        Type in the numbers or use the arrow buttons on screen.<br/>
+        Press enter when done, or use the check button.<br/>
+      </p>
+    </div>
+    <div id="sources">
+      Made by Kelly Macshane with design by Dan Flannery<br/>
+      Assets from <a href="https://kenney.nl/">Kenney</a></div>
   </body>
 </html>
