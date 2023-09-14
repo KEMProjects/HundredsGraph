@@ -6,7 +6,7 @@ export default {
   transparent:true,
   scale: {
     width: 1440,
-    height: 900,
+    height: 750,
     mode: Phaser.Scale.FIT,
     autoCenter: Phaser.Scale.CENTER_BOTH
   },
